@@ -2,31 +2,30 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Çay Love You - Sifariş</title>
+    <title>Sifariş Göndər</title>
 </head>
-<body>
+<body onload="listenAccepted()">
 
 <h2>Sifariş Göndər</h2>
 
-Masa nömrəsi: <br>
-<input id="table" type="text"><br><br>
+Masa nömrəsi:<br>
+<input type="text" id="masa"><br><br>
 
-Məhsul adı: <br>
-<input id="meal" type="text"><br><br>
+Məhsul:<br>
+<input type="text" id="mehsul"><br><br>
 
-Qeyd: <br>
-<input id="note" type="text"><br><br>
+Qeyd:<br>
+<input type="text" id="qeyd"><br><br>
 
-<button onclick="sendOrder()">Sifarişi Göndər</button>
+<button onclick="sendOrder()">Göndər</button>
+
+<audio id="sound" src="ping.mp3"></audio>
+<audio id="acceptedSound" src="ping.mp3"></audio>
 
 <br><br>
-<a href="kitchen.html">Mətbəx Paneli</a>
-
-<!-- Firebase -->
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<a href="kitchen.html">Mətbəx</a> |
+<a href="admin.html">Müdir</a>
 
 <script src="script.js"></script>
-
 </body>
 </html>
