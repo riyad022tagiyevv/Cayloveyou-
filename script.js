@@ -1,12 +1,12 @@
 // ===== FIREBASE CONFIG =====
 const firebaseConfig = {
-    apiKey: "SƏNİN_API_KEY",
-    authDomain: "SƏNİN_authDomain",
-    databaseURL: "SƏNİN_databaseURL",
-    projectId: "SƏNİN_projectId",
-    storageBucket: "SƏNİN_storageBucket",
-    messagingSenderId: "SƏNİN_messagingSenderId",
-    appId: "SƏNİN_appId"
+    apiKey: "AIzaSyCwnn6JY3f-Nv9NWx2beIUjAnyVCqU749E",
+    authDomain: "cay-love-you.firebaseapp.com",
+    databaseURL: "https://cay-love-you-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "cay-love-you",
+    storageBucket: "cay-love-you.firebasestorage.app",
+    messagingSenderId: "526657108236",
+    appId: "1:526657108236:web:8ce574d880d232c754b129"
 };
 
 // Firebase-i başladırıq
